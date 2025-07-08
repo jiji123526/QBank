@@ -85,12 +85,6 @@ npm install
 npm run dev
 ```
 
-## ✅ TODO
-
-- [ ] Add password reset functionality
-- [ ] Implement question history dashboard
-- [ ] Improve personalized feedback logic
-- [ ] Add real SAT-style timer and progress tracker
 
 ## ✨ Contribution
 
@@ -103,4 +97,4 @@ npm run dev
 ## 📝 License
 
 This project is licensed under the MIT License.
-```
+
