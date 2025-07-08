@@ -1,3 +1,4 @@
+```
 # Q-Bank – SAT Question Generator
 
 Q-Bank is a smart SAT question generator web app that helps users improve their test skills through personalized practice. Users can choose the subject, question type, and difficulty to receive targeted SAT questions, track their performance, and get recommendations for improvement.
@@ -24,14 +25,29 @@ Q-Bank is a smart SAT question generator web app that helps users improve their 
 ## 📁 Project Structure
 
 /src  
-├── components/  
+├── components/               # Reusable UI components  
+├── context/                 # React contexts for auth and question state  
+│   ├── authContext.tsx  
+│   └── QuestionBankContext.tsx  
+├── data/                    # Firebase configuration  
+├── hooks/                   # Custom React hooks  
+├── lib/                     # Utility functions (if any)  
+├── pages/                   # Page-level components  
+│   ├── AnalyzeLoadingPage.tsx  
+│   ├── AnalyzePage.tsx  
+│   ├── DifficultiesSelection.tsx  
 │   ├── LandingPage.tsx  
-│   ├── Login.tsx  
-│   └── SignUp.tsx  
-├── data/  
-│   └── firebase.ts  
-├── App.tsx  
-└── main.tsx
+│   ├── Login.tsx / SignUp.tsx  
+│   ├── MyPage.tsx  
+│   ├── Practice.tsx  
+│   ├── SkillsSelection.tsx  
+│   ├── Summary.tsx  
+│   ├── TestJson.tsx  
+│   └── NotFound.tsx  
+├── App.tsx                  # Main app with routing  
+├── index.css / App.css      # Global styles  
+├── main.tsx                 # App entry point  
+└── vite-env.d.ts            # Type definitions for Vite
 
 ## 🔐 Firebase Setup
 
@@ -69,13 +85,6 @@ npm install
 # Start development server
 npm run dev
 ```
-
-## ✅ TODO
-
-- [ ] Add password reset functionality
-- [ ] Implement question history dashboard
-- [ ] Improve personalized feedback logic
-- [ ] Add real SAT-style timer and progress tracker
 
 ## ✨ Contribution
 
