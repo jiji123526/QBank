@@ -1,4 +1,3 @@
-```
 # Q-Bank – SAT Question Generator
 
 Q-Bank is a smart SAT question generator web app that helps users improve their test skills through personalized practice. Users can choose the subject, question type, and difficulty to receive targeted SAT questions, track their performance, and get recommendations for improvement.
@@ -85,6 +84,13 @@ npm install
 # Start development server
 npm run dev
 ```
+
+## ✅ TODO
+
+- [ ] Add password reset functionality
+- [ ] Implement question history dashboard
+- [ ] Improve personalized feedback logic
+- [ ] Add real SAT-style timer and progress tracker
 
 ## ✨ Contribution
 
